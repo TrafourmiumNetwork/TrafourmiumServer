@@ -1,0 +1,9 @@
+motds:
+  generic:
+  - '          &c&lServers under maintenence.%newline &1Discord.me/Trafourmium &bfor more information!'
+  - '          &c&lServers under maintenence.%newline &1Discord.me/Trafourmium &bfor more information!'
+  - '          &c&lServers under maintenence.%newline &1Discord.me/Trafourmium &bfor more information!'
+  dynamic:
+  - '          &c&lServers under maintenence.%newline &1Discord.me/Trafourmium &bfor more information!'
+  - '          &c&lServers under maintenence.%newline &1Discord.me/Trafourmium &bfor more information!'
+  - '          &c&lServers under maintenence.%newline &1Discord.me/Trafourmium &bfor more information!'

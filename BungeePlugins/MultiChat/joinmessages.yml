@@ -1,0 +1,45 @@
+##############################################################
+#                   *~~~* MULTICHAT *~~~*                    #
+##############################################################
+#                       BY REVILO410                         #
+##############################################################
+
+#################
+#  DO NOT EDIT  #
+version: "1.5"
+#################
+
+##############################################################
+#                       JOIN MESSAGES                        #
+##############################################################
+
+#Should network join messages be displayed?
+
+showjoin: false
+
+#Should network quit messages be displayed?
+
+showquit: false
+
+##############################################################
+
+# USES STANDARD MINECRAFT '&X' COLOUR/FORMAT CODES
+# %NAME% = The name of the sender
+
+#NETWORK join message
+
+serverjoin: "&e%NAME% &6joined the network"
+
+#SERVER SILENT switch message
+
+silentjoin: "&b&o%NAME% &c&ojoined the network silently"
+
+#NETWORK quit message
+
+networkquit: "&e%NAME% left the network"
+
+#NETWORK SILENT quit message
+
+silentquit: "&b&o%NAME% &c&oleft the network silently"
+
+##############################################################

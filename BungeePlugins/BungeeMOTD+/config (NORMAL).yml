@@ -1,0 +1,9 @@
+motds:
+  generic:
+  - '&b&l---]-&6&lTrafourmium&4&lNetwork&b&l-[--- &c[1.8.* - 1.12.*]%newline&a&l            Are you ready?'
+  - '&b&l---]-&6&lTrafourmium&4&lNetwork&b&l-[--- &c[1.8.* - 1.12.*]%newline&a&l            Join today!'
+  - '&b&l---]-&6&lTrafourmium&4&lNetwork&b&l-[--- &c[1.8.* - 1.12.*]%newline&B&L            JOIN TODAY'
+  dynamic:
+  - '&b&l---]-&6&lTrafourmium&4&lNetwork&b&l-[--- &c[1.8.* - 1.12.*]%newline&a&l            Are you ready? %player ?'
+  - '&b&l---]-&6&lTrafourmium&4&lNetwork&b&l-[--- &c[1.8.* - 1.12.*]%newline&a&l            Join today %player !'
+  - '&b&l---]-&6&lTrafourmium&4&lNetwork&b&l-[--- &c[1.8.* - 1.12.*]%newline&B&L            JOIN TODAY!'
