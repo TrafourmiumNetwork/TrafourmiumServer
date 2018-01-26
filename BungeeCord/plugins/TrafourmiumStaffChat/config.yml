@@ -1,0 +1,83 @@
+# TrafourmiumStaffChat - By Bradisswag
+
+# MESSAGES
+# Configure the message sent to console when console invokes a command.
+console-message: "This command is not supported in console."
+# Configure the message sent to players who don't have enough permissions for a certain command.
+no-permission: "&8[&6&lTrafourmium&4&lStaffChat&8] &7You do not have enough permissions for this command."
+# Configure the message sent when the player hasn't added a message to a command that needs it.
+invalid-usage: "&8[&6&lTrafourmium&4&lStaffChat&8] &7Please insert a message."
+# Configure the message of toggling AdminChat.
+adminchat-toggle-enabled: "&8[&6&lTrafourmium&c&lAdminChat&8] &7AdminChat toggled."
+adminchat-toggle-disabled: "&8[&6&lTrafourmium&c&lAdminChat&8] &7AdminChat toggle disabled."
+staffchat-toggle-enabled: "&8[&6&lTrafourmium&a&lStaffChat&8] &7StaffChat toggled."
+staffchat-toggle-disabled: "&8[&6&lTrafourmium&a&lStaffChat&8] &7StaffChat toggle disabled."
+# Configure the message of the configuration file being reloaded.
+config-reloaded: "&aConfig has been reloaded."
+
+# ADMIN CHAT
+# Configure the format of AdminChat, available placeholders are: %player% & %message%.
+adminchat-format: "&c&lAdminChat %prefix% &f%player%&8: &f%message%"
+# AdminChat Hover - Set the text you want a player to see, when they hover their mouse pointer over the text that someone sent.
+# Placeholders: %server% (this placeholder works only on hover messages and on command suggestion messages) & %prefix%.
+adminchat-hover:
+  enable: true
+  message: "&f&lServer: &f&l%server%"
+# AdminChat Click - Set the action
+adminchat-click:
+  enable: true
+  url:
+    enable: false
+    url: "www.TrafourmiumNetwork.com"
+  command:
+    enable: true
+    command: "/msg %player%"
+# STAFF CHAT
+# Configure the format of AdminChat, available placeholders are: %player% & %message%.
+staffchat-format: "&a&lStaffChat %prefix% &f%player%&8: &f%message%"
+# StaffChat Hover - Set the text you want a player to see, when they hover their mouse pointer over the text that someone sent.
+# Placeholders: %server% (this placeholder works only on hover messages and on command suggestion messages) & %prefix%.
+staffchat-hover:
+  enable: true
+  message: "&f&lServer: &f&l%server%"
+# StaffChat Click - Set the action
+staffchat-click:
+  enable: true
+  url:
+    enable: false
+    url: "www.TrafourmiumNetwork.com"
+  command:
+    enable: true
+    command: "/msg %player%"
+# HELPOP
+# Do you want to enable Helpop command?
+enable-helpop: true
+# The format of HelpOP, available placeholders: %player% & %message%.
+helpop-format: "&4&lHelpOP %prefix% &f%player%&8: &f&l%message%"
+# Same placeholders and configuration system like AdminChat Hover and Click events.
+helpop-hover:
+  enable: true
+  message: "&7&lServer: &f&l%server%"
+helpop-click:
+  enable: true
+  url:
+    enable: false
+    url: "www.TrafourmiumNetwork.com"
+  command:
+    enable: true
+    command: "/server %server%"
+
+# Configure the message that will be sent to the player who uses the /helpop command.
+helpop-received: "&a&lYour message was successfully received and sent to online staff. If nobody reacts, you can head to our forum by clicking on this text."
+# This part is for the helpop received message, so you can let the players visit your forum, etc.
+helpop-received-hover:
+  enable: true
+  message: "&f&lClick on the text to visit our forum."
+helpop-received-click:
+  enable: true
+  url:
+    enable: true
+    url: "www.TrafourmiumNetwork.com"
+  command:
+    enable: false
+    command: ""

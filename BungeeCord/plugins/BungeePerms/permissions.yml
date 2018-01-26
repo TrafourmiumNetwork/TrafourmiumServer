@@ -1,0 +1,25 @@
+version: 1
+users:
+  Bradisswag:
+    groups: []
+    permissions:
+    - trafourmiumsc.sc
+    - trafourmiumsc.sct
+    - trafourmiumsc.act
+    - '*'
+    - trafourmiumsc.ac
+  MCI:
+    groups: []
+    permissions: []
+  Fred_o_PAIN:
+    groups: []
+    permissions: []
+  Sophiem9:
+    groups: []
+    permissions: []
+  RepourceYT:
+    groups: []
+    permissions: []
+  Etanarvazac:
+    groups: []
+    permissions: []

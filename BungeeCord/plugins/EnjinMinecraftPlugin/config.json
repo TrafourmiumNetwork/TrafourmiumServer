@@ -1,0 +1,8 @@
+{
+  "debug": false,
+  "auth-key": "77e5bfdf2197273ddf3d563ced44503a6320f1d9859c7e669c",
+  "https": true,
+  "auto-update": true,
+  "logging-enabled": true,
+  "api-url": "://api.enjin.com/api/v1/"
+}
