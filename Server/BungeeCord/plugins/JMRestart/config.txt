@@ -1,0 +1,30 @@
+#   Default Config for JenoRestart
+#   ##############################
+#   (c) 2015 by Phreag - JenoMiners.de
+#   Do not add Lines , it will break everything, just change the values...
+#   After how long should BungeeCord restart?
+#   After This time it will restart automatically. (minimum: 3 minutes)
+#   goes by minutes (60=1h, 1440=1d)
+1440
+#   Messages to display before restarting. Supports Color codes.
+#   Alerts will be sent 3 and 1 minute before restarting and as a countdown for the last 10 seconds
+&6&lTrafourmium&4&lNetwork&c&l will restart in 3 minutes!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 1 minutes!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 10 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 9 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 8 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 7 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 6 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 5 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 4 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 3 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 2 seconds!
+&6&lTrafourmium&4&lNetwork&c&l will restart in 1 seconds!
+&6&lTrafourmium&4&lNetwork&c&l is restarting now!
+#   System Time in Hours to restart:
+5
+#   System Time in Minutes to restart:
+00
+#   Use System time for Restart? 1=yes, 0=no, use interval
+1
+#   End of File
