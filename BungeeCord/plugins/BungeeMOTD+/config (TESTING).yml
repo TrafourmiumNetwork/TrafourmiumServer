@@ -1,9 +1,0 @@
-motds:
-  generic:
-  - '&e               Servers under maintenence.%newline             News: discord.me/Trafourmium'
-  - '&e               Servers under maintenence.%newline             News: discord.me/Trafourmium'
-  - '&e               Servers under maintenence.%newline             News: discord.me/Trafourmium'
-  dynamic:
-  - '&e               News: discord.me/Trafourmium %newline %currentplayers %maxplayers %player'
-  - '&e               News: discord.me/Trafourmium %newline %currentplayers %maxplayers %player'
-  - '&e               News: discord.me/Trafourmium %newline %currentplayers %maxplayers %player'
